@@ -42,6 +42,12 @@ public class Main {
         }
         System.out.println("second smallest element is: "
                 + second_smallest);
+
+        System.out.println(calculateNumbers(1,2));;
+
+    }
+    public static double calculateNumbers(double numX, double numY) {
+        return Math.pow(numX,2) + Math.pow(((4*numY)/5) -numX, 2);
     }
 }
 
