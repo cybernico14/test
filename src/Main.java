@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         int numbers[] = {47,75,14,2,97};
+        System.out.println("Hello Monica");
+
 
         //assign first element of an array to largest and smallest
         int smallest = numbers[0];
